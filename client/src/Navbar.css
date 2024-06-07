@@ -1,0 +1,23 @@
+.navbar-container {
+    background-color: #333; /* Background color for the navbar */
+    color: #fff; /* Text color for the links */
+    position: fixed; /* Fixed position to keep the navbar at the top of the screen */
+    width: 100%; /* Full width */
+    top: 0; /* Align at the top of the screen */
+    z-index: 1000; /* Ensure the navbar appears above other content */
+  }
+  
+  .navbar-links {
+    padding: 10px; /* Add some padding to the links */
+  }
+  
+  .navbar-links > a {
+    color: #fff; /* Text color for the links */
+    margin-right: 20px; /* Add some space between the links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .navbar-links > a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
